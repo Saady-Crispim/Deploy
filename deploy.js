@@ -318,7 +318,7 @@ function renderizarcat() {
         } rounded-lg' id="card-produto-${prodcatalago.id}">
             <img
                 src="Assets/IMG/${prodcatalago.nomeimg}"
-                alt=""
+                alt="catalago:${prodcatalago.nome}"
                 class="group-hover:scale-110 duration-200 h-40 object-cover rounded-lg"
             />
             <p class='text-sm my-3 font-semibold'>${prodcatalago.tamanho}</p>
