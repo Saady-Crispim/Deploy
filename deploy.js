@@ -213,7 +213,7 @@ function desenharprodcart(idproduto) {
   const cartaocart = `<button id="remover-item-${produto.id}" class="absolute top-0 right-[5px]">
           <i class="fa-solid fa-circle-xmark hover:text-slate-200"></i>
         </button>
-        <img src="./Assets/IMG/${produto.nomeimg}" alt="Carrinho: ${produto.nome}" class="h-24 w-24 rounded-lg object-cover" />
+        <img src="./Assets/IMG/${produto.nomeimg}" alt="Carrinho: ${produto.nome}" class="h-24 w-24 rounded-lg object-cover p-2" />
         <div class="flex flex-col justify-between p-2">
           <p class="text-sm">${produto.nome}</p>
           <p class="text-xs">tamanho:${produto.tamanho}</p>

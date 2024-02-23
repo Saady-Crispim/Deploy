@@ -18,32 +18,31 @@
       id="carrinho"
       class="fixed top-0 right-[-360px] bg-slate-800 h-screen w-[360px] text-slate-200 p-5 z-50 duration-300 border-l border-slate-800 flex flex-col justify-between"
     >
-      <div id="cabecalho-carrinho" class="flex justify-between m-4">
-        <p>Meu carrinho</p>
+      <div id="cabecalho-carrinho" class="flex justify-between m-4 font-bold">
+        <p class="pt-2">Meu carrinho</p>
+        <a class="flex justify-center rounded-2xl hover:bg-slate-600 text-white p-1 hover:text-slate-200 h-auto w-8 text-2xl "
+          href="https://web.whatsapp.com/send?phone=5511972465471/"
+          target="_blank"
+    
+          class="bg-slate-200 text-slate-900 p-1 w-auto items-center hover:text-slate-200 hover:bg-slate-800 rounded-sm"
+          id="whatsapp"
+          >
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
         <button id="fechar-carrinho">
           <i class="fa-solid fa-circle-xmark"></i>
         </button>
       </div>
+      <div class="p-2">
+        <p>O carrinho é um meio de pré-visualização do valor total. Os pedidos deveram ser feitos via whatsapp </p>
+      </div>
       <section
         id="produtos-carrinho"
-        class="max-h-[500px] max-w-[600px] overflow-y-auto flex flex-col gap-2"
+        class="max-h-[500px] max-w-[600px] overflow-y-auto flex flex-col "
       ></section>
       <p id="preco-total" class="text-slate-200 rounded-sm bg-slate-700 pl-5">
         Total
       </p>
-      <div class="p-2">
-        <p>Obs: Ao selecionar "finalizar compra" solicitamos que tire um ou mais "prints" do carrinho e nos envie atraves do seguinte botao. </p>
-        <p>Ou se preferir envie o que gostaria e quantidade.</p>
-      </div>
-      <a
-        href="https://web.whatsapp.com/send?phone=5511972465471/"
-        target="_blank"
-  
-        class="bg-slate-200 text-slate-900 p-1 w-auto items-center hover:text-slate-200 hover:bg-slate-800 rounded-sm"
-        id="whatsapp"
-      >
-        Finalizar compra
-      </a>
     </section>
     <header
       class="flex text-xl shadown-xl shadown-slate-400 bg-slate-800 px-8 py-4 justify-between sticky top-0 z-10"
