@@ -42,7 +42,7 @@ const catalago = [
   },
   {
     id: "6",
-    nome: "Bolo de maracujá",
+    nome: "Mousse de maracujá",
     tamanho: "180g",
     preco: 10.0,
     nomeimg: "product-6.jpg",
@@ -58,7 +58,7 @@ const catalago = [
   },
   {
     id: "8",
-    nome: "Bolo de limão",
+    nome: "Mousse de limão",
     tamanho: "180g",
     preco: 10.0,
     nomeimg: "product-8.jpg",
@@ -66,7 +66,7 @@ const catalago = [
   },
   {
     id: "9",
-    nome: "Bolo de alpino",
+    nome: "Alpino",
     tamanho: "180g",
     preco: 12.0,
     nomeimg: "product-9.jpg",
@@ -82,10 +82,34 @@ const catalago = [
   },
   {
     id: "11",
-    nome: "Bolo de ninho com abacaxi",
+    nome: "Leite ninho com geleia de abacaxi",
     tamanho: "180g",
     preco: 12.0,
     nomeimg: "product-11.jpg",
+    salgado: false,
+  },
+  {
+    id: "12",
+    nome: "Sensação",
+    tamanho: "180g",
+    preco: 12.0,
+    nomeimg: "",
+    salgado: false,
+  },
+  {
+    id: "13",
+    nome: "Laka",
+    tamanho: "180g",
+    preco: 12.0,
+    nomeimg: "",
+    salgado: false,
+  },
+  {
+    id: "14",
+    nome: "Suffler",
+    tamanho: "180g",
+    preco: 12.0,
+    nomeimg: "",
     salgado: false,
   },
 ];
