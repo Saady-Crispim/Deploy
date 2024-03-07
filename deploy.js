@@ -85,7 +85,7 @@ const catalago = [
     nome: "Leite ninho com geleia de abacaxi",
     tamanho: "180g",
     preco: 12.0,
-    nomeimg: "product-11.jpg",
+    nomeimg: "product-11.jpg.JPEG",
     salgado: false,
   },
   {
