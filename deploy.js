@@ -109,7 +109,7 @@ const catalago = [
     nome: "Suffler",
     tamanho: "180g",
     preco: 12.0,
-    nomeimg: "",
+    nomeimg: "Product-14.jpg",
     salgado: false,
   },
 ];
